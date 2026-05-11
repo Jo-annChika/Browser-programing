@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jo-ann Obewe – Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="light">
+
+    <!-- Skip link for accessibility -->
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <!-- ====== SITE HEADER WITH NAV ====== -->
+    <header class="topnav" id="topnav">
+        <div class="nav-inner">
+            <span class="nav-logo">Jo-ann Obewe</span>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home"      class="nav-link">Home</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#skills"    class="nav-link">Skills</a></li>
+                    <li><a href="#projects"  class="nav-link">Projects</a></li>
+                    <li><a href="#interests" class="nav-link">Interests</a></li>
+                    <li><a href="#api-demo"  class="nav-link">API Demo</a></li>
+                    <li><a href="weather.html" class="nav-link nav-weather">Weather App</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-btn" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+                <button class="burger" id="burger" aria-label="Open menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ====== MAIN CONTENT ====== -->
+    <main id="main">
+
+        <!-- HERO / HOME -->
+        <section id="home" class="page-section hero-section">
+            <div class="hearts-bg" aria-hidden="true"></div>
+            <div class="hero-inner">
+                <img src="images/profile.jpg" alt="Jo-ann Obewe" class="hero-avatar-img">
+                <h1>Jo-ann Obewe</h1>
+                <p class="hero-role">Information Technology (IoT) Student at Savonia University of Applied Sciences</p>
+                <p class="hero-location">📍 Kuopio, Finland</p>
+                <p class="hero-bio">
+                    Passionate about IoT and how technology connects the physical and digital world.
+                    In my free time I love baking, cooking, photography, and reading.
+                </p>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="btn-primary">See My Work</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section id="portfolio" class="page-section">
+            <div class="section-inner">
+                <h2 class="section-title">Portfolio &amp; Works</h2>
+
+                <!-- Photo section (required by assignment) -->
+                <div class="profile-photo-wrap">
+                    <figure>
+                        <img src="images/profile.jpg" alt="Photo of Jo-ann Obewe, IoT student at Savonia University of Applied Sciences" class="profile-photo">
+                        <figcaption>Jo-ann Obewe — IoT Student, Savonia UAS</figcaption>
+                    </figure>
+                </div>
+
+                <div class="cards-grid">
+
+                    <article class="card">
+                        <div class="card-icon">📷</div>
+                        <h3>Photography Page</h3>
+                        <p>A personal photography page showcasing my photos. Built as a static website.</p>
+                        <a href="https://jo-annchika.github.io/photography-page/" target="_blank" class="card-link">View Live Site →</a>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">📝</div>
+                        <h3>Notes App</h3>
+                        <p>A notes application for creating, storing, and managing personal notes. Built as a full-stack project and deployed on Vercel.</p>
+                        <a href="https://notesapp-brdcmbgyh-dadstar07-4302s-projects.vercel.app/" target="_blank" class="card-link">View Live Site →</a>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">💅</div>
+                        <h3>Pinky Braids</h3>
+                        <p>A website for a hair braiding service, showcasing styles and booking information. Deployed on Vercel.</p>
+                        <a href="https://pinkybraidsfi-7thcta67g-dadstar07-4302s-projects.vercel.app/#home" target="_blank" class="card-link">View Live Site →</a>
+                    </article>
+
+                    <article class="card card-wide">
+                        <div class="card-icon">🎬</div>
+                        <h3>Featured Video</h3>
+                        <figure>
+                            <iframe
+                                width="100%"
+                                height="315"
+                                src="https://www.youtube.com/embed/6mBO2vqLv38"
+                                title="Introduction to IoT – featured on Jo-ann Obewe portfolio"
+                                allowfullscreen>
+                            </iframe>
+                            <figcaption>A video about Internet of Things — one of my key areas of study</figcaption>
+                        </figure>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="page-section section-alt">
+            <div class="section-inner">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-grid">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>IoT &amp; Sensors</li>
+                    <li>Photography</li>
+                    <li>LTSpice</li>
+                    <li>Raspberry Pi</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="page-section">
+            <div class="section-inner">
+                <h2 class="section-title">Projects</h2>
+                <div class="cards-grid">
+
+                    <article class="card">
+                        <div class="card-icon">📷</div>
+                        <h3>Photography Page</h3>
+                        <p>A personal photography page showcasing my photos. Built as a static website.</p>
+                        <a href="https://jo-annchika.github.io/photography-page/" target="_blank" class="card-link">View Live Site →</a>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">📝</div>
+                        <h3>Notes App</h3>
+                        <p>A notes application for creating, storing, and managing personal notes. Deployed on Vercel.</p>
+                        <a href="https://notesapp-brdcmbgyh-dadstar07-4302s-projects.vercel.app/" target="_blank" class="card-link">View Live Site →</a>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">💅</div>
+                        <h3>Pinky Braids</h3>
+                        <p>A website for a hair braiding service, showcasing styles and booking information. Deployed on Vercel.</p>
+                        <a href="https://pinkybraidsfi-7thcta67g-dadstar07-4302s-projects.vercel.app/#home" target="_blank" class="card-link">View Live Site →</a>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">🌤️</div>
+                        <h3>Weather App</h3>
+                        <p>Fetches real-time weather data from the Open-Meteo API and displays temperature and wind speed for Finnish cities.</p>
+                        <a href="weather.html" class="card-link">Open Weather App →</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- INTERESTS -->
+        <section id="interests" class="page-section section-alt">
+            <div class="section-inner">
+                <h2 class="section-title">Areas of Interest</h2>
+                <div class="interests-grid">
+
+                    <article class="interest-card">
+                        <div class="interest-icon">⚙️</div>
+                        <h3>Technology &amp; Studies</h3>
+                        <ul>
+                            <li>Internet of Things — sensors, automation, smart systems</li>
+                            <li>Web development — HTML, CSS, JavaScript</li>
+                            <li>Embedded systems and microcontrollers</li>
+                        </ul>
+                    </article>
+
+                    <article class="interest-card">
+                        <div class="interest-icon">🏅</div>
+                        <h3>Sports</h3>
+                        <ul>
+                            <li>Following and participating in sports activities</li>
+                            <li>Fitness and outdoor activities in Finland</li>
+                        </ul>
+                    </article>
+
+                    <article class="interest-card">
+                        <div class="interest-icon">🎨</div>
+                        <h3>Hobbies</h3>
+                        <ul>
+                            <li>Baking — trying new recipes and experimenting</li>
+                            <li>Cooking — exploring cuisines from around the world</li>
+                            <li>Photography — capturing everyday moments</li>
+                            <li>Reading — fiction, technology, and personal development</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- API DEMO -->
+        <section id="api-demo" class="page-section">
+            <div class="section-inner">
+                <h2 class="section-title">External Data Demo</h2>
+                <p class="section-sub">This section fetches live data from a public API using <code>async/await</code> and the Fetch API to update the page dynamically.</p>
+                <button id="loadDataBtn" class="btn-primary">Load Data</button>
+                <div id="dataBox" class="data-box" aria-live="polite">
+                    <p class="data-placeholder">Click the button to load data.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ====== FOOTER ====== -->
+    <footer id="site-footer">
+        <div class="footer-inner">
+            <h2>Contact &amp; Social</h2>
+            <ul class="footer-links">
+                <li><a href="https://github.com/Jo-annChika"       target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/jo-ann-obewe-282482334"   target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:joannobewe@gmail.com">Email</a></li>
+            </ul>
+            <p id="lastUpdated" class="footer-updated"></p>
+            <p class="footer-copy">&copy; 2025 Jo-ann Obewe</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
